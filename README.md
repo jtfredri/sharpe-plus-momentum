@@ -32,7 +32,7 @@ $$
 where:
 
 - $\bar{R}$ = average return  
-- $r_f$ = risk-free rate (often set to 0 for simplicity)  
+- $r_f$ = risk-free rate
 - $\sigma$ = standard deviation of returns  
 
 Higher Sharpe ratio means better return per unit of risk.
@@ -72,7 +72,6 @@ $$
 Example:
 - **Equinor** and **Aker BP** show high correlation.
 - This is expected because both operate in the oil and energy industry.
-- Stocks in the same industry often move together due to shared risk factors (oil prices, regulation, global demand).
 
 ---
 
