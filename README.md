@@ -6,9 +6,6 @@ The file `norwegian_stocks.csv` contains **adjusted closing prices** for selecte
 
 - Period: **2025-01-08 to 2026-02-03**
 - Frequency: Daily
-- Prices are adjusted for dividends and splits
-
-Adjusted prices are used because they reflect the true return of holding the stock.
 
 ---
 
