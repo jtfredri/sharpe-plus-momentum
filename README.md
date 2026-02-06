@@ -16,11 +16,11 @@ Adjusted prices are used because they reflect the true return of holding the sto
 
 Daily returns are computed as:
 
-\[
+$$
 R_t = \frac{P_t}{P_{t-1}} - 1
-\]
+$$
 
-where \( P_t \) is the adjusted closing price at time \( t \).
+where $P_t$ is the adjusted closing price at time $t$.
 
 ---
 
@@ -28,15 +28,15 @@ where \( P_t \) is the adjusted closing price at time \( t \).
 
 The Sharpe ratio measures return relative to risk.
 
-\[
+$$
 S = \frac{\bar{R} - r_f}{\sigma}
-\]
+$$
 
 where:
 
-- \( \bar{R} \) = average return  
-- \( r_f \) = risk-free rate (often set to 0 for simplicity)  
-- \( \sigma \) = standard deviation of returns  
+- $\bar{R}$ = average return  
+- $r_f$ = risk-free rate (often set to 0 for simplicity)  
+- $\sigma$ = standard deviation of returns  
 
 Higher Sharpe ratio means better return per unit of risk.
 
@@ -46,11 +46,11 @@ Higher Sharpe ratio means better return per unit of risk.
 
 Momentum assumes that stocks that have performed well recently continue to perform well.
 
-Momentum over a lookback period \( L \) is calculated as:
+Momentum over a lookback period $L$ is calculated as:
 
-\[
+$$
 M_t = \frac{P_t}{P_{t-L}} - 1
-\]
+$$
 
 Stocks are ranked by momentum, and the strongest performers are selected.
 
@@ -64,9 +64,9 @@ In this project:
 
 The correlation matrix measures how stocks move relative to each other.
 
-\[
+$$
 \rho_{ij} = \frac{\text{Cov}(R_i, R_j)}{\sigma_i \sigma_j}
-\]
+$$
 
 - Values close to **1** → stocks move together  
 - Values close to **0** → weak relationship  
