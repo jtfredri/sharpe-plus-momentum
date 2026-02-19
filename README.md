@@ -11,7 +11,6 @@ The file `norwegian_stocks.csv` contains **adjusted closing prices** for selecte
 
 ## Goal
 
-The goal is to:
 - Compare stock performance
 - Identify high-momentum stocks
 - Evaluate risk-adjusted returns using the Sharpe ratio
